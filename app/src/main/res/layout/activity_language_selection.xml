@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LanguageSelectionActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_main_bg" />
+
+    <com.akshara.mathapp.view.FontTextView
+        android:id="@+id/org_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/org_edittext"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/view_element_margin"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <com.akshara.mathapp.view.FontEditText
+        android:id="@+id/org_edittext"
+        style="@style/ParentEditTextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/language_spinner_form"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/view_element_margin"
+        android:background="@drawable/bg_color_white_rounded_corners_accent_dot_border"
+        android:imeOptions="actionNext|flagNoFullscreen"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="">
+
+        <requestFocus />
+    </com.akshara.mathapp.view.FontEditText>
+
+
+    <RelativeLayout
+        android:id="@+id/language_spinner_form"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/org_edittext"
+        android:layout_alignStart="@+id/org_edittext"
+        android:layout_below="@id/layout_age_class"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/view_element_margin"
+        android:layout_marginTop="@dimen/view_element_margin"
+        android:background="@drawable/bg_color_white_rounded_corners_accent_dot_border_no_padding">
+
+        <Spinner
+            android:id="@+id/language_edit_spinner"
+            style="@style/Widget.AppCompat.DropDownItem.Spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/language_spinner_form"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/view_element_margin"
+        android:layout_marginTop="@dimen/view_element_margin"
+        android:background="@drawable/ic_circle_selector_bg_accent_border_dot_white"
+        android:padding="@dimen/view_element_padding"
+        android:src="@drawable/ic_done_white_24dp" />
+
+    <com.akshara.mathapp.view.FontTextView
+        android:id="@+id/option_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/org_edittext"
+        android:layout_below="@+id/done_button"
+        android:layout_marginTop="@dimen/view_element_margin"
+        android:text="@string/textview_optional"
+        android:textColor="@android:color/black"
+        android:textSize="12sp" />
+</RelativeLayout>

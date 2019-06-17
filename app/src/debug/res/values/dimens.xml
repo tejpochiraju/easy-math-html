@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_element_padding">8dip</dimen>
+    <dimen name="view_element_margin">16dip</dimen>
+
+    <dimen name="button_drawable_radius">10dip</dimen>
+    <dimen name="button_top_bottom_padding">8dip</dimen>
+    <dimen name="button_left_right_padding">23dip</dimen>
+
+    <dimen name="margin_start_done_button">30dp</dimen>
+    <dimen name="grid_vert_decorator_spacing">15dp</dimen>
+    <dimen name="margin_start_image_login_grid">20dp</dimen>
+    <dimen name="margin_top_image_login_action_buttons">20dp</dimen>
+
+    <dimen name="margin_start_end_student_detail_scroll">40dp</dimen>
+
+    <dimen name="text_size_edittext_field">18sp</dimen>
+    <dimen name="avatar_image_border_size">2dp</dimen>
+</resources>

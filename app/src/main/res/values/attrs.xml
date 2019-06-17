@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="apptext">
+        <attr name="textStyle" format="enum">
+            <enum name="light" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="black" value="2" />
+        </attr>
+        <attr name="caps" format="boolean" />
+        <attr name="italic" format="boolean" />
+        <attr name="customHeight" format="dimension" />
+        <attr name="noLeft" format="boolean" />
+        <attr name="noRight" format="boolean" />
+        <attr name="customBackground" format="reference" />
+    </declare-styleable>
+</resources>

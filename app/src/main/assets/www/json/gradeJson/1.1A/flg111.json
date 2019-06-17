@@ -1,0 +1,67 @@
+﻿{"frames": [
+
+{
+	"filename": "Symbol 58 instance 10000",
+	"frame": {"x":0,"y":0,"w":194,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":193},
+	"sourceSize": {"w":194,"h":193}
+}
+,{
+	"filename": "Symbol 58 instance 10001",
+	"frame": {"x":194,"y":0,"w":194,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":193},
+	"sourceSize": {"w":194,"h":193}
+}
+,{
+	"filename": "Symbol 58 instance 10002",
+	"frame": {"x":388,"y":0,"w":194,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":193},
+	"sourceSize": {"w":194,"h":193}
+}
+,{
+	"filename": "Symbol 58 instance 10003",
+	"frame": {"x":582,"y":0,"w":194,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":193},
+	"sourceSize": {"w":194,"h":193}
+}
+,{
+	"filename": "Symbol 58 instance 10004",
+	"frame": {"x":388,"y":0,"w":194,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":193},
+	"sourceSize": {"w":194,"h":193}
+}
+,{
+	"filename": "Symbol 58 instance 10005",
+	"frame": {"x":194,"y":0,"w":194,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":193},
+	"sourceSize": {"w":194,"h":193}
+}
+,{
+	"filename": "Symbol 58 instance 10006",
+	"frame": {"x":0,"y":0,"w":194,"h":193},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":193},
+	"sourceSize": {"w":194,"h":193}
+}],
+"meta": {
+	"app": "Adobe Animate",
+	"version": "15.1.0.210",
+	"image": "Falg36.png",
+	"format": "RGBA8888",
+	"size": {"w":777,"h":194},
+	"scale": "1"
+}
+}

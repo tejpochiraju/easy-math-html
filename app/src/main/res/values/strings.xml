@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Easy Math v19</string>
+
+    <!-- Progress Dialog messges -->
+    <string name="progress_dialog_loading_text">Loading&#8230;</string>
+    <string name="progress_dialog_user_signup">Signing up user…</string>
+    <string name="progress_dialog_saving">Saving…</string>
+    <string name="progress_dialog_login">Logging in…</string>
+    <string name="progress_dialog_child_info">Getting child info…</string>
+
+    <!-- Runtime permission rationales -->
+    <string name="message_rationale_camera_permission">Permission to access your camera is required for the app to take pictures and video</string>
+    <string name="message_rationale_storage_permission">Permission to access your storage is required for the app to handle images in lesson and chat</string>
+    <string name="message_rationale_location_permission">Permission to access location is required for completing signup.</string>
+    <string name="message_rationale_device_id_permission">Permission to access phone is required for completing signup.</string>
+
+    <!-- Button Texts -->
+    <string name="button_text_okay">Okay</string>
+    <string name="button_text_yes">Yes</string>
+    <string name="button_text_no">No</string>
+    <string name="button_text_sign_in">SIGN IN</string>
+    <string name="button_text_register">REGISTER</string>
+
+
+    <!-- Messages -->
+    <string name="message_error_select_language">Please select language</string>
+    <string name="error_capturing_image">There was an error while capturing the image. Please try again.</string>
+    <string name="error_message_camera_uri_error">Sorry. Unable to retrieve image.</string>
+    <string name="message_error_select_gender">Please select gender</string>
+    <string name="message_error_select_profile_picture">Please select profile picture</string>
+    <string name="message_error_select_school_type">Please select school type</string>
+    <string name="error_message_no_internet">Please check your internet connection</string>
+    <string name="error_message_name_field">Please enter name</string>
+    <string name="error_message_class_field">Please select class</string>
+    <string name="error_message_age_field">Please enter valid age</string>
+    <string name="error_message_phone_field">Please enter valid phone</string>
+    <string name="error_message_server_error_fallback">Temporarily out of service. Please try again later</string>
+    <string name="message_success">Success</string>
+    <string name="message_updated">Updated</string>
+    <string name="error_message_already_logged_in">You\'re arleady logged in on this device !</string>
+    <string name="error_message_delete_avatar_confirmation">Are you sure you want to delete this Avatar ?</string>
+
+    <!-- Language Selection Activity -->
+    <string name="textview_language_odiya">ଓଡ଼ିଆ</string>
+    <string name="textview_language_kannada">ಕನ್ನಡ</string>
+    <string name="textview_language_hindi">हिंदी</string>
+    <string name="textview_language_english">English</string>
+    <string name="select_language">Select Language</string>
+    <string name="textview_organization_name">Organization Name*</string>
+    <string name="hint_organization_name">Akshara</string>
+    <string name="textview_optional">*Optional</string>
+
+    <!-- Gender Avatar selection activty -->
+    <string name="textview_gender_female">FEMALE</string>
+    <string name="textview_gender_male">MALE</string>
+    <string name="textview_set_profile_pic">Set your profile picture</string>
+    <string name="message_choose_avatar_source">Choose avatar source</string>
+    <string name="message_option_camera">Camera</string>
+    <string name="message_option_gallery">Gallery</string>
+
+    <string name="textview_select_gender">Select Gender</string>
+    <string-array name="gender_array">
+        <item>@string/textview_select_gender</item>
+        <item>@string/textview_gender_female</item>
+        <item>@string/textview_gender_male</item>
+    </string-array>
+
+    <!-- Student detail activity -->
+    <string name="textview_name">Name</string>
+    <string name="textview_phone">Phone Number</string>
+    <string name="textview_age">Age</string>
+    <string name="textview_class">Class</string>
+    <string name="message_turn_on_location">Please turn on location to continue</string>
+
+    <string name="type_of_school">Type of School</string>
+    <string name="school_type_government">Government</string>
+    <string name="school_type_private">Private</string>
+    <string-array name="school_type_array">
+        <item>@string/type_of_school</item>
+        <item>@string/school_type_government</item>
+        <item>@string/school_type_private</item>
+    </string-array>
+
+    <string-array name="language_type_array">
+        <item>@string/select_language</item>
+        <item>@string/textview_language_odiya</item>
+        <item>@string/textview_language_kannada</item>
+        <item>@string/textview_language_hindi</item>
+        <item>@string/textview_language_english</item>
+    </string-array>
+
+    <!-- Image login activity -->
+    <string name="title_login_add_student">Add Child</string>
+
+    <!-- Edit Profile activity -->
+    <string name="textview_edit_avatar">Change your profile picture</string>
+
+    <string name="button_text_start">Start</string>
+
+    <string name="select_class">Select Class</string>
+    <string name="first_grade">1st Grade</string>
+    <string name="second_grade">2nd Grade</string>
+    <string name="third_grade">3rd Grade</string>
+    <string name="fourth_grade">4th Grade</string>
+    <string name="fifth_grade">5th Grade</string>
+    <string name="sixth_grade">6th Grade</string>
+    <string name="seventh_grade">7th Grade</string>
+    <string name="eighth_grade">8th Grade</string>
+    <string name="ninth_grade">9th Grade</string>
+    <string-array name="class_type_array">
+        <item>@string/select_class</item>
+        <item>@string/first_grade</item>
+        <item>@string/second_grade</item>
+        <item>@string/third_grade</item>
+        <item>@string/fourth_grade</item>
+        <item>@string/fifth_grade</item>
+        <item>@string/sixth_grade</item>
+        <item>@string/seventh_grade</item>
+        <item>@string/eighth_grade</item>
+        <item>@string/ninth_grade</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="DEBUG_MODE">true</bool>
+    <!--<string name="BASE_URL">https://dev.abs.klp.org.in/</string>-->
+    <string name="BASE_URL">https://abs.klp.org.in/abs/</string>
+
+</resources>

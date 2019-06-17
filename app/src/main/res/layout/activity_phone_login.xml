@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.akshara.mathapp.activity.PhoneLoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_main_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/view_element_margin"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="@dimen/view_element_margin"
+        android:orientation="vertical">
+
+        <com.akshara.mathapp.view.FontTextView
+            android:id="@+id/name_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/view_element_margin"
+            android:text="@string/textview_name"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <com.akshara.mathapp.view.FontEditText
+            android:id="@+id/name_edittext"
+            style="@style/NameEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:nextFocusForward="@id/phone_edittext"
+            tools:text="">
+
+            <requestFocus />
+        </com.akshara.mathapp.view.FontEditText>
+
+
+        <com.akshara.mathapp.view.FontTextView
+            android:id="@+id/phone_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/textview_phone"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+
+        <com.akshara.mathapp.view.FontEditText
+            android:id="@+id/phone_edittext"
+            style="@style/ParentEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/view_element_margin"
+            android:background="@drawable/bg_color_white_rounded_corners_accent_dot_border"
+            android:gravity="center"
+            android:hint="@string/textview_phone"
+            android:imeOptions="actionDone|flagNoFullscreen"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:text="" />
+
+        <com.akshara.mathapp.view.FontTextView
+            android:id="@+id/sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/view_element_margin"
+            android:background="@drawable/bg_color_accent_rounded_corners_dot_border_white"
+            android:gravity="center"
+            android:text="@string/button_text_sign_in"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>

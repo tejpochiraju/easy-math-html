@@ -1,0 +1,83 @@
+﻿{"frames": [
+
+{
+	"filename": "Symbol 9 instance 10000",
+	"frame": {"x":0,"y":326,"w":185,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":205,"h":163},
+	"sourceSize": {"w":205,"h":163}
+}
+,{
+	"filename": "Symbol 9 instance 10001",
+	"frame": {"x":205,"y":0,"w":191,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":205,"h":163},
+	"sourceSize": {"w":205,"h":163}
+}
+,{
+	"filename": "Symbol 9 instance 10002",
+	"frame": {"x":201,"y":163,"w":195,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":0,"w":205,"h":163},
+	"sourceSize": {"w":205,"h":163}
+}
+,{
+	"filename": "Symbol 9 instance 10003",
+	"frame": {"x":0,"y":163,"w":201,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":205,"h":163},
+	"sourceSize": {"w":205,"h":163}
+}
+,{
+	"filename": "Symbol 9 instance 10004",
+	"frame": {"x":0,"y":0,"w":205,"h":163},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":205,"h":163},
+	"sourceSize": {"w":205,"h":163}
+}
+,{
+	"filename": "Symbol 9 instance 10005",
+	"frame": {"x":0,"y":163,"w":201,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":205,"h":163},
+	"sourceSize": {"w":205,"h":163}
+}
+,{
+	"filename": "Symbol 9 instance 10006",
+	"frame": {"x":201,"y":163,"w":195,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":0,"w":205,"h":163},
+	"sourceSize": {"w":205,"h":163}
+}
+,{
+	"filename": "Symbol 9 instance 10007",
+	"frame": {"x":205,"y":0,"w":191,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":205,"h":163},
+	"sourceSize": {"w":205,"h":163}
+}
+,{
+	"filename": "Symbol 9 instance 10008",
+	"frame": {"x":0,"y":326,"w":185,"h":163},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":205,"h":163},
+	"sourceSize": {"w":205,"h":163}
+}],
+"meta": {
+	"app": "Adobe Animate",
+	"version": "18.0.0.107",
+	"image": "Falg1option1.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "1"
+}
+}

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="com.akshara.mathapp.activity.EditProfileActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_main_bg" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/view_element_margin">
+
+            <ImageView
+                android:id="@+id/avatar_thumbnail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:padding="@dimen/avatar_image_border_size"
+                tools:src="@drawable/ic_done_white_24dp" />
+
+            <com.akshara.mathapp.view.FontTextView
+                android:id="@+id/title_set_profile_pic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/avatar_thumbnail"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/view_element_margin"
+                android:layout_marginTop="@dimen/view_element_margin"
+                android:background="@drawable/bg_color_white_rounded_corners_accent_dot_border_no_padding"
+                android:drawablePadding="@dimen/view_element_padding"
+                android:drawableStart="@drawable/ic_photo_camera_accent_24dp"
+                android:gravity="center_vertical"
+                android:padding="@dimen/view_element_padding"
+                android:text="@string/textview_edit_avatar"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.akshara.mathapp.view.FontTextView
+                android:id="@+id/phone_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_set_profile_pic"
+                android:layout_centerHorizontal="true"
+                android:text="@string/textview_phone"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
+
+            <com.akshara.mathapp.view.FontEditText
+                android:id="@+id/phone_edittext"
+                style="@style/ParentEditTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/title_set_profile_pic"
+                android:layout_alignStart="@+id/title_set_profile_pic"
+                android:layout_below="@+id/phone_header"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/view_element_margin"
+                android:background="@drawable/bg_color_white_rounded_corners_accent_dot_border"
+                android:gravity="center"
+                android:hint="@string/textview_phone"
+                android:imeOptions="actionNext|flagNoFullscreen"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:nextFocusForward="@id/age_edittext"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                tools:text="">
+
+                <requestFocus />
+            </com.akshara.mathapp.view.FontEditText>
+
+            <include
+                android:id="@+id/layout_age_class"
+                layout="@layout/layout_age_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/title_set_profile_pic"
+                android:layout_alignStart="@+id/title_set_profile_pic"
+                android:layout_below="@+id/phone_edittext"
+                android:layout_marginBottom="@dimen/view_element_margin"
+                android:layout_marginTop="@dimen/view_element_margin" />
+
+            <RelativeLayout
+                android:id="@+id/language_spinner_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/title_set_profile_pic"
+                android:layout_alignStart="@+id/title_set_profile_pic"
+                android:layout_below="@id/layout_age_class"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/view_element_margin"
+                android:background="@drawable/bg_color_white_rounded_corners_accent_dot_border_no_padding">
+
+                <Spinner
+                    android:id="@+id/language_edit_spinner"
+                    style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/school_spinner_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/title_set_profile_pic"
+                android:layout_alignStart="@+id/title_set_profile_pic"
+                android:layout_below="@+id/language_spinner_form"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/view_element_margin"
+                android:background="@drawable/bg_color_white_rounded_corners_accent_dot_border_no_padding">
+
+                <Spinner
+                    android:id="@+id/school_type_spinner"
+                    style="@style/Widget.AppCompat.DropDownItem.Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" />
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/done_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/school_spinner_form"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/view_element_margin"
+                android:layout_marginTop="@dimen/view_element_margin"
+                android:background="@drawable/ic_circle_bg_white_border_dot_accent"
+                android:padding="@dimen/view_element_padding"
+                android:src="@drawable/ic_done_accent_24dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

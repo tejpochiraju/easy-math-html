@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">ಈಜಿಮ್ಯಾಥ್</string>
+
+    <!-- Progress Dialog messges -->
+    <string name="progress_dialog_loading_text">ಲೋಡ್ ಆಗುತ್ತಿದೆ&#8230;</string>
+    <string name="progress_dialog_user_signup">ಬಳಕೆದಾರರನ್ನು ಸೈನ್ ಅಪ್ ಮಾಡಲಾಗುತ್ತಿದೆ…</string>
+    <string name="progress_dialog_saving">ಸೇವ್ ಆಗುತ್ತಿದೆ…</string>
+    <string name="progress_dialog_login">ಲಾಗಿಂಗ್ ಇನ್ …</string>
+    <string name="progress_dialog_child_info">ಮಗುವಿನ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲಾಗುತ್ತಿದೆ …</string>
+
+    <!-- Runtime permission rationales -->
+    <string name="message_rationale_camera_permission">ಚಿತ್ರಗಳು ಮತ್ತು ವಿಡಿಯೋ ತೆಗೆದುಕೊಳ್ಳಲು ,ಕ್ಯಾಮೆರಾ ಬಳಸಲು ನಿಮ್ಮ   ಅನುಮತಿ ನೀಡಿ</string>
+    <string name="message_rationale_storage_permission">ಪಾಠ ಮತ್ತು ಚಾಟ್ ನಿರ್ವಹಿಸಲು ನಿಮ್ಮ ಫೋನ್ ಸ್ಟೋರೇಜ್  ಅಗತ್ಯವಿದೆ. ಅನುಮತಿ ನೀಡಿ</string>
+    <string name="message_rationale_location_permission">ಸೈನ್ ಅಪ್ಪೂ ರ್ಣಗೊಳಿಸಲು ಜಿಯೋಲೊಕೇಶನ್  ಅಗತ್ಯವಿದೆ</string>
+    <string name="message_rationale_device_id_permission">ಸೈನ್ ಅಪ್ ಮುಗಿಸಲು ಫೋನ್  ಅಗತ್ಯವಿದೆ . ಅನುಮತಿ ನೀಡಿ </string>
+
+    <!-- Button Texts -->
+    <string name="button_text_okay">ಓಕೆ</string>
+    <string name="button_text_yes">ಹೌದು</string>
+    <string name="button_text_no">ಇಲ್ಲ</string>
+    <string name="button_text_sign_in">ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="button_text_register">ರಿಜಿಸ್ಟರ್</string>
+
+
+    <!-- Messages -->
+    <string name="message_error_select_language">ದಯವಿಟ್ಟು ಭಾಷೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="error_capturing_image">ಚಿತ್ರವನ್ನು ಸೆರೆಹಿಡಿಯುವಲ್ಲಿ ದೋಷ  ಕಂಡುಬಂದಿದೆ. ದಯವಿಟ್ಟು ಪುನಃ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="error_message_camera_uri_error">ಕ್ಷಮಿಸಿ. ಚಿತ್ರವನ್ನು ಹಿಂಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="message_error_select_gender">ದಯವಿಟ್ಟು ಲಿಂಗವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="message_error_select_profile_picture">ದಯವಿಟ್ಟು ಪ್ರೊಫೈಲ್ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="message_error_select_school_type">ದಯವಿಟ್ಟು ಶಾಲೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="error_message_no_internet">ದಯವಿಟ್ಟು ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ</string>
+    <string name="error_message_name_field">ದಯವಿಟ್ಟು ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="error_message_class_field">ದಯವಿಟ್ಟು ಕ್ಲಾಸ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="error_message_age_field">ದಯವಿಟ್ಟು  ವಯಸ್ಸನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="error_message_phone_field">ದಯವಿಟ್ಟು ಸರಿಯಾದ  ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="error_message_server_error_fallback">ತಾತ್ಕಾಲಿಕವಾಗಿ ಸೇವೆ ದುರಸ್ತಿಯಲ್ಲಿದೆ . ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="message_success">ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+    <string name="message_updated">ನವೀಕರಿಸಲಾಗಿದೆ</string>
+    <string name="error_message_already_logged_in">ನೀವು ಈಗಾಗಲೇ ಈ ಫೋನ್ ನಲ್ಲಿ  ಲಾಗ್ ಇನ್ ಆಗಿರುವಿರಿ!</string>
+    <string name="error_message_delete_avatar_confirmation">ಈ ಅವತಾರ್ ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?</string>
+
+    <!-- Gender Avatar selection activty -->
+    <string name="textview_gender_female">ಹುಡುಗಿ</string>
+    <string name="textview_gender_male">ಹುಡುಗ</string>
+    <string name="textview_set_profile_pic">ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಚಿತ್ರವನ್ನು ಆರಿಸಿ</string>
+    <string name="message_choose_avatar_source">ಅವತಾರ್ ಮೂಲವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ</string>
+    <string name="message_option_camera">ಕ್ಯಾಮೆರಾ</string>
+    <string name="message_option_gallery">ಗ್ಯಾಲರಿ</string>
+    <string name="textview_select_gender">ಲಿಂಗವನ್ನು ಆಯ್ಕೆ</string>
+
+    <!-- Student detail activity -->
+    <string name="textview_name">ಹೆಸರು</string>
+    <string name="textview_phone">ಫೋನ್ ನಂಬರ್</string>
+    <string name="textview_age">ವಯಸ್ಸು</string>
+    <string name="textview_class">ಕ್ಲಾಸ್</string>
+    <string name="message_turn_on_location">ದಯವಿಟ್ಟು ಮುಂದುವರಿಸಲು ಭೌಗೋಳಿಕ ಸ್ಥಳವನ್ನು ಆನ್ ಮಾಡಿ</string>
+
+    <string name="type_of_school">ಶಾಲೆಯ ಪ್ರಕಾರ</string>
+    <string name="school_type_government">ಸರಕಾರಿ</string>
+    <string name="school_type_private">ಖಾಸಗಿ</string>
+    <string-array name="school_type_array">
+        <item>@string/type_of_school</item>
+        <item>@string/school_type_government</item>
+        <item>@string/school_type_private</item>
+    </string-array>
+
+    <!-- Image login activity -->
+    <string name="title_login_add_student">ಇನ್ನೊಂದು ಮಗುವನ್ನು ನೋಂದಾಯಿಸಿ </string>
+
+    <!-- Edit Profile activity -->
+    <string name="textview_edit_avatar">ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಚಿತ್ರವನ್ನು ಬದಲಾಯಿಸಿ</string>
+
+    <string name="select_language">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <string name="button_text_start">ಪ್ರಾರಂಭಿಸಿ</string>
+
+    <string name="select_class">ಕ್ಲಾಸ್ ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="textview_organization_name">ಸಂಸ್ಥೆ ಹೆಸರು*</string>
+    <string name="hint_organization_name">ಅಕ್ಷರಾ</string>
+    <string name="textview_optional">*ಐಚ್ಛಿಕ</string>
+
+</resources>
